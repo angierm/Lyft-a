@@ -1,0 +1,45 @@
+
+#one-section {
+  background: linear-gradient( #72246C, #75276F, #62305F, #322A62, #2B2E62);
+  height: 100vh;
+}
+background {
+  background: url("../assets/img/drive.png") center;
+}
+#two-section {
+  background: url("../assets/img/drive.png") center;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+#two-section button {
+
+  background-color: #E24B72;
+  border: 1px solid white;
+  color: white;
+  width: 35%;
+}
+
+#two-section a {
+  color: white;
+}
+#splash {
+  height: 100vh;
+}
+
+#splash img{
+  width: 70%;
+}
+
+#buttons {
+  height: 20vh;
+}
+
+#logo {
+  height: 80vh;
+  background-color: rgba(236, 12, 129, 0.2);
+}
+.pin {
+  width: 60%;
+}
