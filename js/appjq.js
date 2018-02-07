@@ -8,7 +8,7 @@ function loadPage() {
 
   $("#sign-up").click(signUp);
   $("#random").click(randomCode);
-  $("#numberInput").click(validation);
+  $("#number").click(validation);
 }
 
 function signUp() {
@@ -16,18 +16,18 @@ function signUp() {
 }
 
 function validation() {
-  var $phoneNumber = $("#numberInput").val()
-  if( isNaN($phoneNumber) ) {
+  var $phoneNew = $("#number").val()
+  if( isNaN($phoneNew) ) {
   $("#nextForm").disabled()
-  alert("hola");
+  alert("hello");
   }
 }
 
 //funcion código random
 function randomCode() {
-  var $botonRandom = $("#random")
-  var $numberRandom = $("#llenar");
-  $numberRandom.html("Hola" + Math.floor((Math.random() * 999) + 100));
+  var $buttonRandom = $("#random")
+  var $numberRandom = $("#answer");
+  $numberRandom.html("hello" + Math.floor((Math.random() * 999) + 100));
 }
 
 

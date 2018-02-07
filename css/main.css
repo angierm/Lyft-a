@@ -3,6 +3,7 @@
   background: linear-gradient( #72246C, #75276F, #62305F, #322A62, #2B2E62);
   height: 100vh;
 }
+
 background {
   background: url("../assets/img/drive.png") center;
 }
@@ -12,11 +13,22 @@ background {
   height: 100vh;
 
 }
+#vista {
+  background: url("../assets/img/vista.jpg") center;
+  background-size: cover;
 
+}
+p {
+  color: white;
+  font-size: 22px;
+  font-family:sans-serif;
+
+}
 #two-section button {
 
   background-color: #E24B72;
   border: 1px solid white;
+  border-radius: 8px;
   color: white;
   width: 35%;
 }
@@ -35,9 +47,13 @@ background {
 #buttons {
   height: 20vh;
 }
+#input{
+  font-size:22px;
+  margin: 0;
+}
 
 #logo {
-  height: 80vh;
+  height: 85vh;
   background-color: rgba(236, 12, 129, 0.2);
 }
 .pin {
